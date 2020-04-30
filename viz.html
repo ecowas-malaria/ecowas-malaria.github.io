@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.11.2, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.11.2, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/ecowas.png" type="image/x-icon">
+  <meta name="description" content="Web Page Maker Description">
+  
+  <title>Visualisation</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/gallery/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <script src="assets/theme/js/d3v5.js"></script>
+  
+  
+</head>
+<body>
+  <section class="menu cid-rXhLx1uO5j" once="menu" id="menu1-r">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                
+                
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="index.html">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
+                        Accueil</a>
+                </li><li class="nav-item"><a class="nav-link link text-white display-4" href="palu.html"><span class="mbri-sad-face mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        Le Palu</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="cedeao.html"><span class="mbri-globe mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        La CEDEAO</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="#"><span class="mbri-growing-chart mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        Visualisation</a></li><li class="nav-item"><a class="nav-link link text-white display-4" href="interpretation.html"><span class="mbri-edit mbr-iconfont mbr-iconfont-btn"></span>
+                        
+                        Rapport</a></li>
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="propos.html">
+                        <span class="mbri-users mbr-iconfont mbr-iconfont-btn"></span>
+                        A propos</a>
+                </li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobirise.info/a">online web builder</a></section><section class="mbr-gallery mbr-slider-carousel cid-rXhKGfp19L" id="gallery4-p">
+
+    
+
+    <div class="container-fluid" id="vize">
+      <div class="row" id="viz">
+        <div id="dive1"><h2><img id='paludisme' src="assets/images/ecowas.png"> Visualisation paludisme dans la CEDEAO <select id="serere" onchange="VizMalaria()">
+          <option>--Sélectionner un pays--</option><option>Benin</option><option>Burkina_Faso</option><option>Cabo Verde</option><option>Ivory_Coast</option><option>Gambia</option><option>Ghana</option><option>Guinea</option><option>Guinea-Bissau</option><option>Liberia</option><option>Mali</option><option>Niger</option><option>Nigeria</option><option>Senegal</option><option>Sierra_Leone</option><option>Togo</option></select></h2>
+          <marquee><p>Cette visualisation est inspirée de la visualisation de l'évolution de la pandémie du corona virus du<a href="https://cartosantesen.maps.arcgis.com/apps/opsdashboard/index.html#/260c7842a77a48c191bf51c8b0a1d3f6" target="_blank"> ministère de la santé et de l'action sociale (MSAS)</a> de la République du Sénégal. Les donées ont été recueillies sous format csv sur le site de l'<a href="https://apps.who.int/gho/data/node.main.A1362?lang=en" target="_blank"> Organisation Mondiale de la Santé (OMS).</a></p></marquee>
+        </div>
+        <div class="dive2"><p>Total Confirmés 2000-2017</p><svg id="som1" width='320' height='40'></svg></div>
+        <div class="dive2"><p>Total Décès 2000-2017</p><svg id="som2" width='320' height='40'></svg></div>
+        <div class="dive2"><p>Moy. Cas Confirmés par an</p><svg id="moy1" width='320' height='40'></svg></div>
+        <div class="dive2"><p>Moy. Décès par an</p><svg id="moy2" width='320' height='40'></svg></div>
+        <div class="dive3" id="graph1"><p>Linechart et Barchart Cas confirmés 2000-2017</p><svg id="casld1" width='430' height='210'></svg></div>
+        <div class="dive31" id='ecowas0'><h3>Carte CEDEAO</h3><svg id="mapcedeao" width='320' height='210'></svg></div>
+        <div class="dive3" id="graph2"><p>Linechart et Barchart Décès 2000-2017</p><svg id="casld2" width='430' height='210'></svg></div>
+        <div class="dive4"><p>Total cas confirmés 2000-2017 CEDEAO</p><svg id="diagC" width='400' height='240'></svg></div>
+        <div class="dive41" id="chal"><h4>Heatmap CEDEAO 2000-2012</h4><svg id="heatmapp" width='540' height='300'></svg></div>
+        <div class="dive4" id="cede"><p>Total Décès 2000-2017 CEDEAO</p>
+          <svg id="diagD" width='400' height='240'></svg></div>
+      </div>  
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/gallery/player.min.js"></script>
+  <script src="assets/gallery/script.js"></script>
+  <script src="assets/slidervideo/script.js"></script>
+  
+  
+</body>
+</html>
